@@ -1,0 +1,461 @@
+/* ========== navber css ======= */
+
+.navbar{
+    /* background-color: #222; */
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+}
+
+.navbar-light .navbar-nav .nav-item{
+    padding: 57px 20px;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #ffff;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #ffff;
+}
+
+/* ========== benner css ======== */
+
+#benner {
+    background-image: url('../images/benner.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 220px 0 110px 0;
+    position: relative;
+}
+
+#benner::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom ,rgba(0,0,0,1) 10%,rgba(0,0,0,0));
+    top: 0;
+    left: 0;
+}
+
+.benner_text h1 {
+    color: #ffff;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+    padding: 0 10px 0 0;
+}
+
+.benner_text p {
+    color: #ffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 25px 140px 34px 0;
+}
+
+.benner_text a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f64b3c;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 150px;
+}
+
+/* ========= chef css ====== */
+
+#chef {
+    background-image: url('../images/chef\ benner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0 70px 0;
+}
+
+.chef_text h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #f64b3c;
+    padding: 0 0 25px 0;
+}
+
+.chef_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0px 300px;
+    color: #f64b3c;
+}
+
+.chef_item {
+    text-align: center;
+    padding: 30px 0px;
+}
+
+.chef_item h4 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #f64b3c;
+    text-transform: uppercase;
+}
+
+.chef_item p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 49px;
+    color: #f64b3c;
+}
+
+/* ========== best_burger css ======= */
+
+#best_burger {
+    background-image: url('../images/bg-red.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 170px 0 150px 0;
+    position: relative;
+}
+
+.best_burger_text {
+    margin-left: 13px;
+}
+
+.best_burger_text h1 {
+    color: #ffff;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    margin-top: 60px;
+}
+
+.best_burger_text p {
+    color: #ffff;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px 95px 34px 0;
+}
+
+.best_burger_text a {
+    color: #f64b3c;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #ffff;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 150px;
+}
+
+/* ============ big_burger =========== */
+
+#big_burger {
+    background-image: url('../images/big\ buger\ benner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 170px 0 150px 0;
+    position: relative;
+}
+
+.big_burger_text {
+    margin-left: 13px;
+}
+
+.big_burger_text h1 {
+    color: #f64b3c;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    margin-top: 60px;
+}
+
+.big_burger_text p {
+    color: #f64b3c;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 25px 95px 34px 0;
+}
+
+.big_burger_text a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f64b3c;
+    padding: 15px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 150px;
+}
+
+/* ====== Statistics ===== */
+
+#Statistics {
+    background-image: url('../images/bg-red.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 85px 0 180px 0;
+}
+
+.Statistics_text h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #ffff;
+    padding: 0 0 25px 0;
+}
+
+.Statistics_text p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0 313px;
+    color: #ffff;
+}
+
+.Statistics_item {
+    text-align: center;
+    padding: 55px 0px;
+    border: 3px solid #ffff;
+    border-radius: 50%;
+    width: 240px;
+    height: 240px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.Statistics_item h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    color: #ffff;
+    font-size: 60px;
+}
+
+.Statistics_item h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    color: #ffff;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* ========= popular ======== */
+
+#popular {
+    background-image: url('../images/card\ benner.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 95px 0 80px 0;
+    position: relative;
+}
+
+.popular_text h1 {
+    color: #f64b3c;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.popular_item {
+    background-color: #fff;
+    width: 290px;
+    height: 444px;
+    border-radius: 10px;
+}
+
+.popular_item h1 {
+    color: #f64b3c;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 25px 0 20px 0;
+}
+
+.popular_item h2 {
+    color: #f64b3c;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 25px 0 10px 0;
+}
+
+.popular_item p {
+    color: #f64b3c;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0px 0 20px 0;
+}
+
+.popular_item a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #f64b3c;
+    padding: 10px 55px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 150px;
+}
+
+/* ========= Barry ========= */
+
+#Barry {
+    background-image: url('../images/bg\ benner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 250px 0 212px 0;
+    position: relative;
+}
+
+#Barry::before{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f25240,#f25240);
+    top: 0;
+    left: 0;
+    opacity: 0.7;
+}
+
+.Barry_text p {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #ffff;
+    padding: 0px 260px;
+}
+
+.Barry_text h6 {
+    font-family: 'Calistoga', serif;
+    font-weight: 400;
+    font-size: 35px;
+    color: #ffff;
+    padding: 50px 0 0 0;
+}
+
+/* ========= Update ======== */
+
+#Update {
+    background-image: url('../images/form\ benner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 0 165px 0;
+}
+
+.Update_text h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    color: #f64b3c;
+    text-transform: capitalize;
+    padding: 0 0 20px 0;
+}
+
+.Update_text p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    padding: 0 280px;
+    color: #f64b3c;
+}
+
+.form {
+    padding: 45px 330px;
+}
+
+.input-group input{
+    height: 40px;
+    border-radius: 30px;
+}
+
+.input-group input::placeholder{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    color: #835e3f;
+    font-size: 17px;
+    padding: 0 15px;
+}
+
+.input-group .input-group-append span{
+    background-color: #f64b3c;
+    color: #ffffff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding: 0 30px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+/* ========= footer ======== */
+
+#footer {
+    background-image: url('../images/footer.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 180px 0 160px 0;
+}
+
+.Title h1 {
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #ffff;
+}
+
+.Title p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffff;
+    padding: 17px 195px 17px 0;
+}
+
+.Title_icon{
+    word-spacing: 10px;
+}
+
+.about h1{
+    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffff;
+}
+
+.about p {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: #ffff;
+    padding: 17px 0;
+    line-height: 2;
+}
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Archivo', sans-serif;
+font-family: 'Calistoga', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Poppins', sans-serif; */

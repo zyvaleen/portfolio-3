@@ -1,0 +1,708 @@
+
+/* Extra small devices  */
+@media (max-width: 575.98px) { 
+
+    #benner {
+        padding: 150px 0 70px 0;
+    }
+
+    .benner_text p {
+        font-size: 15px;
+        padding: 15px 145px 25px 0;
+    }
+
+    .benner_text h1 {
+        font-size: 25px;
+        padding: 0px 190px 0 0;
+    }
+
+    .benner_text p {
+        font-size: 18px;
+        padding: 15px 95px 25px 0;
+    }
+
+    .benner_text a {
+        padding: 10px 25px;
+    }
+
+    .navbar-light .navbar-brand img {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: none;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    /* ===== chef ==== */
+
+    #chef {
+        padding: 30px 0 0 0;
+    }
+
+    .chef_text h1 {
+        font-size: 30px;
+        padding: 0 0 20px 0;
+    }
+
+    .chef_text p {
+        font-size: 15px;
+        padding: 0px 14px;
+    }
+
+    .chef_item {
+        padding: 20px 0px;
+    }
+
+    .chef_item p {
+        padding: 10px 70px;
+        font-size: 18px;
+    }
+
+    .chef_item h4 {
+        font-size: 22px;
+    }
+
+    /* ==== best_burger ==== */
+
+    #best_burger {
+        padding: 70px 0 70px 0;
+    }
+    .best_burger_text h1 {
+        font-size: 35px;
+    }
+    .best_burger_text p {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .best_burger_text a {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+    .best_burger_img img {
+        width: 245px;
+    }
+
+    /* ========== big_burger ====== */
+
+    #big_burger {
+        padding: 0px 0 70px 0;
+    }
+    .big_burger_text{
+        padding-bottom: 30px;
+    }
+    .big_burger_text h1 {
+        font-size: 35px;
+        padding-top: 30px;
+    }
+    .big_burger_text p {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .big_burger_text a {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+    .big_burger_img img {
+        width: 245px;
+    }
+
+    /* ===== Statistics ===== */
+
+    #Statistics {
+        padding: 30px 0 0px 0;
+    }
+
+    .Statistics_text h1 {
+        font-size: 35px;
+        padding: 0 0 5px 0;
+    }
+
+    .Statistics_text p {
+        font-size: 17px;
+        padding: 0px 10px;
+    }
+
+    .Statistics_item {
+        width: 155px;
+        height: 155px;
+        margin-bottom: 50px;
+        padding: 25px 0;
+        margin-top: -35px;
+    }
+
+    .Statistics_item h1 {
+        font-size: 40px;
+    }
+
+    .Statistics_item h2 {
+        font-size: 22px;
+    }
+
+    /* ========= discount ========== */
+
+    #popular {
+        padding: 50px 0 50px 0px;
+    }
+
+    .popular_text h1 {
+        font-size: 30px;
+    }
+
+    .popular_item a {
+        padding: 10px 25px;
+    }
+
+    .popular_item {
+        margin-bottom: 20px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* ========== Barry ========= */
+
+    #Barry {
+        padding: 180px 0 106px 0;
+    }
+
+    .Barry_text p {
+        font-size: 22px;
+        padding: 0 0px;
+    }
+
+    .Barry_text h6 {
+        font-size: 28px;
+    }
+
+    /* ===== Update ==== */
+
+    #Update {
+        padding: 50px 0 50px 0;
+    }
+
+    .Update_text h1 {
+        font-size: 23px;
+        padding: 0 0 10px 0;
+    }
+
+    .Update_text p {
+        font-size: 15px;
+        padding: 0 10px;
+    }
+
+    .form {
+        padding: 10px 10px;
+    }
+
+    .input input {
+        height: 30px;
+    }
+
+    .input input::placeholder{
+        font-size: 13px;
+    }
+
+    .input-group .input-group-append span {
+        padding: 0 15px;
+    }
+
+    /* ========= footer ====== */
+
+    #footer {
+        padding: 115px 0 115px 0;
+    }
+    
+
+    .Title p {
+        padding: 10px 100px 15px 0;
+    }
+
+    .Title_icon a img {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        padding: 10px 0;
+    }
+
+ }
+
+
+
+
+ /* Small devices  */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+
+    #benner {
+        padding: 150px 0 70px 0;
+    }
+
+    .benner_text h1 {
+        font-size: 32px;
+        padding: 0px 295px 0 0;
+    }
+
+    .benner_text p {
+        font-size: 20px;
+        padding: 15px 150px 25px 0;
+    }
+
+    .benner_text a {
+        padding: 15px 45px;
+    }
+
+    .navbar-light .navbar-brand img {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: none;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    /* ===== chef ==== */
+
+    #chef {
+        padding: 30px 0 0 0;
+    }
+
+    .chef_text h1 {
+        font-size: 35px;
+        padding: 0 0 20px 0;
+    }
+
+    .chef_text p {
+        font-size: 18px;
+        padding: 0px 14px;
+    }
+
+    .chef_item {
+        padding: 20px 0px;
+    }
+
+    .chef_item p {
+        padding: 10px 70px;
+        font-size: 18px;
+    }
+
+    .chef_item h4 {
+        font-size: 22px;
+    }
+
+    /* ==== best_burger ==== */
+
+    #best_burger {
+        padding: 70px 0 70px 0;
+    }
+    .best_burger_text h1 {
+        font-size: 40px;
+    }
+    .best_burger_text p {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 25px;
+    }
+    .best_burger_text a {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+    .best_burger_img img {
+        width: 245px;
+    }
+
+    /* ========== big_burger ====== */
+
+    #big_burger {
+        padding: 0px 0 70px 0;
+    }
+    .big_burger_text{
+        padding-bottom: 30px;
+    }
+    .big_burger_text h1 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .big_burger_text p {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+    .big_burger_text a {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+    .big_burger_img img {
+        width: 245px;
+    }
+
+    /* ===== Statistics ===== */
+
+    #Statistics {
+        padding: 30px 0 0px 0;
+    }
+
+    .Statistics_text h1 {
+        font-size: 35px;
+        padding: 0 0 5px 0;
+    }
+
+    .Statistics_text p {
+        font-size: 18px;
+        padding: 0px 35px;
+    }
+
+    .Statistics_item {
+        width: 155px;
+        height: 155px;
+        margin-bottom: 50px;
+        padding: 25px 0;
+        margin-top: -35px;
+    }
+
+    .Statistics_item h1 {
+        font-size: 40px;
+    }
+
+    .Statistics_item h2 {
+        font-size: 22px;
+    }
+
+    /* ========= discount ========== */
+
+    #popular {
+        padding: 50px 0 50px 0px;
+    }
+
+    .popular_text h1 {
+        font-size: 30px;
+    }
+
+    .popular_item a {
+        padding: 10px 25px;
+    }
+
+    .popular_item {
+        margin-bottom: 20px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* ========== Barry ========= */
+
+    #Barry {
+        padding: 180px 0 106px 0;
+    }
+
+    .Barry_text p {
+        font-size: 22px;
+        padding: 0 0px;
+    }
+
+    .Barry_text h6 {
+        font-size: 28px;
+    }
+
+    /* ===== Update ==== */
+
+    #Update {
+        padding: 50px 0 50px 0;
+    }
+
+    .Update_text h1 {
+        font-size: 30px;
+        padding: 0 0 10px 0;
+    }
+
+    .Update_text p {
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .form {
+        padding: 10px 75px;
+    }
+
+    .input input {
+        height: 30px;
+    }
+
+    .input input::placeholder{
+        font-size: 13px;
+    }
+
+    .input-group .input-group-append span {
+        padding: 0 15px;
+    }
+
+    /* ========= footer ====== */
+
+    #footer {
+        padding: 115px 0 115px 0;
+    }
+    
+
+    .Title p {
+        padding: 10px 100px 15px 0;
+    }
+
+    .Title_icon a img {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        padding: 10px 0;
+    }
+
+ }
+
+
+
+ /* Medium devices  */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+
+    #benner {
+        padding: 180px 0 90px 0;
+    }
+
+    .benner_text h1 {
+        font-size: 50px;
+        padding: 0px 295px 0 0;
+    }
+
+    .benner_text p {
+        font-size: 24px;
+        padding: 15px 259px 25px 0;
+    }
+
+    .benner_text a {
+        padding: 15px 45px;
+    }
+
+    .navbar-light .navbar-brand img {
+        height: 60px;
+        width: 60px;
+        margin-top: 10px;
+    }
+
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: none;
+    }
+
+    button:focus {
+        outline: none;
+    }
+
+    /* ===== chef ==== */
+
+    #chef {
+        padding: 30px 0 0 0;
+    }
+
+    .chef_text h1 {
+        font-size: 35px;
+        padding: 0 0 20px 0;
+    }
+
+    .chef_text p {
+        font-size: 18px;
+        padding: 0px 112px;
+    }
+
+    .chef_item {
+        padding: 20px 0px;
+    }
+
+    .chef_item p {
+        padding: 10px 70px;
+        font-size: 18px;
+    }
+
+    .chef_item h4 {
+        font-size: 22px;
+    }
+
+    /* ==== best_burger ==== */
+
+    #best_burger {
+        padding: 70px 0 70px 0;
+    }
+    .best_burger_text h1 {
+        font-size: 45px;
+        margin-top: 20px;
+    }
+    .best_burger_text p {
+        font-size: 20px;
+        padding: 20px 0 34px 0;
+    }
+    .best_burger_text a {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+    
+
+    /* ========== big_burger ====== */
+
+    #big_burger {
+        padding: 0px 0 70px 0;
+    }
+    .big_burger_text{
+        padding-bottom: 30px;
+    }
+    .big_burger_text h1 {
+        font-size: 40px;
+        padding-top: 30px;
+    }
+    .big_burger_text p {
+        font-size: 20px;
+        padding: 20px 0 34px 0;
+    }
+    .big_burger_text a {
+        font-size: 18px;
+        padding: 12px 25px;
+    }
+    .big_burger_img img {
+        margin-top: 100px;
+    }
+
+    /* ===== Statistics ===== */
+
+    #Statistics {
+        padding: 40px 0 20px 0;
+    }
+
+    .Statistics_text h1 {
+        font-size: 35px;
+        padding: 0 0 5px 0;
+    }
+
+    .Statistics_text p {
+        font-size: 18px;
+        padding: 0px 125px;
+    }
+
+    .Statistics_item {
+        width: 155px;
+        height: 155px;
+        margin-bottom: 50px;
+        padding: 25px 0;
+        margin-top: -35px;
+    }
+
+    .Statistics_item h1 {
+        font-size: 40px;
+    }
+
+    .Statistics_item h2 {
+        font-size: 22px;
+    }
+
+    /* ========= discount ========== */
+
+    #popular {
+        padding: 50px 0 50px 0px;
+    }
+
+    .popular_text h1 {
+        font-size: 30px;
+    }
+
+    .popular_item a {
+        padding: 10px 25px;
+    }
+
+    .popular_item {
+        margin-bottom: 20px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+
+    /* ========== Barry ========= */
+
+    #Barry {
+        padding: 180px 0 106px 0;
+    }
+
+    .Barry_text p {
+        font-size: 25px;
+        padding: 0 111px;
+    }
+
+    .Barry_text h6 {
+        font-size: 28px;
+    }
+
+    /* ===== Update ==== */
+
+    #Update {
+        padding: 60px 0 65px 0;
+    }
+
+    .Update_text h1 {
+        font-size: 30px;
+        padding: 0 0 10px 0;
+    }
+
+    .Update_text p {
+        font-size: 20px;
+        padding: 0 98px;
+    }
+
+    .form {
+        padding: 20px 145px;
+    }
+
+    .input input {
+        height: 30px;
+    }
+
+    .input input::placeholder{
+        font-size: 13px;
+    }
+
+    .input-group .input-group-append span {
+        padding: 0 15px;
+    }
+
+    /* ========= footer ====== */
+
+    #footer {
+        padding: 115px 0 115px 0;
+    }
+    
+
+    .Title p {
+        padding: 10px 10px 15px 0;
+    }
+
+    .Title_icon a img {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        padding: 10px 0;
+    }
+
+ }
